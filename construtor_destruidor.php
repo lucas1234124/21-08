@@ -18,7 +18,7 @@ function __destruct(){
     echo 'objeto removido'
 }
 
-//GET "mágico" para colocar valor no $nome
+//GET para colocar valor no $nome
 function __get($atributo) {
     return $this->$atributo;
 }
